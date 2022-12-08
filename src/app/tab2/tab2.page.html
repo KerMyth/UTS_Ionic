@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Data Table
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-refresher slot="fixed" (ionRefresh)="handleRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+  <div style=" background-image: url(../../assets/Images/halo.jpg);">
+    <div class="table">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Matkul</th>
+            <th scope="col">Mutu</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor ="let data of allData">
+            <td>{{data.matkul}}</td>
+            <td>{{data.mutu}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</ion-content>

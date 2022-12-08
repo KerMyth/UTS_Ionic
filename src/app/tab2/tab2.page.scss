@@ -1,0 +1,47 @@
+
+body {
+    background-color: #fff;
+    font: 400 14px system-ui, -apple-system, BlinkMacSystemFont, 'Ubuntu', 'Segoe UI', 'Oxygen-Sans', 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.5rem;
+    margin: 2rem;
+  }
+
+  h1 {
+    line-height: 2.25rem;
+    margin-bottom: 0;
+  }
+  p {
+    margin: .5rem 0 2rem;
+  }
+
+  
+  /*--- TABLE ---*/
+  .table {
+    margin: 2rem 0;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+  }
+  th, td {
+    padding: 1rem 1.5rem;
+    text-align: left;
+  }
+  th {
+    background-color: #008c5f; /* header background color */
+    color: #fff; /* header text color */
+    font-weight: 600;
+  }
+  tr {
+    padding: 0;
+  }
+  td {
+    vertical-align: top;
+  }
+  tr:nth-child(even) td {
+    background-color: rgba(0, 0, 0, .075); /* striped background color */
+  }
+  

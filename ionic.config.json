@@ -1,0 +1,7 @@
+{
+  "name": "UAS-Ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
